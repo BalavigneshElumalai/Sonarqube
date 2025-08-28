@@ -36,7 +36,7 @@ jobs:
       with:
         projectBaseDir: .
         args: >
-          -Dsonar.projectKey="ecommerce_app_petey_amru"
+          -Dsonar.projectKey="ecommerce_app_petey_amru_test"
           -Dsonar.java.binaries=target/classes
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
